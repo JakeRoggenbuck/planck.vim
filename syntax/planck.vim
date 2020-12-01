@@ -25,8 +25,12 @@ syn keyword modifiers static inline final public private protected
 
 
 hi comment guifg=grey ctermfg=grey
+hi string guifg=70 ctermfg=70
+
+syn match string /".*"/
+syn match string /"""(\s|.)*?"""/
 
 syn match comment /\~.*\~/
-syn match comment /\~\/(\s|.)*?\/\~/
+syn match comment /\~\/(\s|.)*?\~\//
 
 let b:current_syntax = 'planck'
