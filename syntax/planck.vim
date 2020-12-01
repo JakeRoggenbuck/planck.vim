@@ -31,7 +31,7 @@ hi string guifg=70 ctermfg=70
 syn match string /".*"/
 syn match string /"""(\s|.)*?"""/
 
-syn match number /\d+/
+syn match number /\d/
 
 syn match comment /\~.*\~/
 syn match comment /\~\/(\s|.)*?\~\//
