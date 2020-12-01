@@ -25,10 +25,13 @@ syn keyword modifiers static inline final public private protected
 
 
 hi comment guifg=grey ctermfg=grey
+hi number guifg=134 ctermfg=134
 hi string guifg=70 ctermfg=70
 
 syn match string /".*"/
 syn match string /"""(\s|.)*?"""/
+
+syn match number /\b\d*(\b|;)/
 
 syn match comment /\~.*\~/
 syn match comment /\~\/(\s|.)*?\~\//
