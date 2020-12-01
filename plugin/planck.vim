@@ -9,5 +9,7 @@ if exists('g:loaded_planck_vim_plugin') || &compatible || v:version < 700
 endif
 let g:loaded_planck_vim_plugin = 1
 
-au BufRead,BufNewFile *.plk hi sql guifg=white guibg=red ctermfg=white ctermbg=red
-au BufRead,BufNewFile *.plk syn match sql /\~.*\~/
+au BufRead,BufNewFile *.plk hi comment guifg=grey ctermfg=grey
+
+au BufRead,BufNewFile *.plk syn match comment /\~.*\~/
+au BufRead,BufNewFile *.plk syn match comment /\~\/.*\/\~/
