@@ -10,7 +10,7 @@ endif
 hi types guifg=214 ctermfg=214
 hi import guifg=74 ctermfg=74
 hi classWords guifg=214 ctermfg=214
-hi classKeyWords guifg=31 ctermfg=31
+hi classKeyWords guifg=31 ctermfg=74
 hi jumps guifg=203 ctermfg=203
 hi flowWords guifg=203 ctermfg=203
 hi modifiers guifg=4 ctermfg=4
@@ -26,7 +26,7 @@ syn keyword modifiers static inline final public private protected
 
 hi comment guifg=grey ctermfg=grey
 hi number guifg=132 ctermfg=132
-hi string guifg=70 ctermfg=70
+hi string guifg=70 ctermfg=74
 
 syn match string /".*"/
 syn match string /"""(\s|.)*?"""/
