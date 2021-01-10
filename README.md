@@ -1,4 +1,5 @@
 # planck.vim
+A syntax highlighting for planck lang files
 
 # Install
 
